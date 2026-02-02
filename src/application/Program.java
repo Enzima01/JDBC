@@ -34,7 +34,7 @@ public class Program {
 		}
 
 		System.out.println("\n=== seller insert ===");
-		Seller newSeller = new Seller(null, "Maria", "maria@gmail.com", new Date(), 3800.00, department);
+		Seller newSeller = new Seller(null, "Bob", "bob@gmail.com", new Date(), 3800.00, department);
 		sellerDao.insert(newSeller);
 		System.out.println("Inserted! New id = " + newSeller.getId());
 
